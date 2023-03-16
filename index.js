@@ -9,10 +9,7 @@ dbConnect();
 
 const Controller = require("./controllers/user.controller");
 
-app.get("/login", (req,res)=>{
-  res.send("teste")
-})
-
+app.post("/login", Controller.login)
 app.post("/cadastro", Controller.post)
 
 app.listen(3000, ()=> console.log("Rodando servidor na porta 3000"))
