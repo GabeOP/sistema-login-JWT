@@ -1,6 +1,6 @@
 # Sobre o projeto 
 
-Esse é um projeto backend de um sistema de login que realiza **identificação**, **autenticação** e **autorização**. Conta com rota privada, registro de usuário e algumas medidas de segurança.
+Esse é um projeto backend de um sistema de login que realiza **identificação**, **autenticação** e **autorização**. Conta com rota privada, registro de usuário e algumas medidas de segurança. O projeto foi separado por diferentes pastas com o objetivo de praticar padrões de arquitetura para criar um código simples de ler e fazer manutenção.
 
 # 🛠 O que utilizei para a criação
 - **<a href="https://nodejs.org/en">NodeJS<a/>** para criar o backend da aplicação.
